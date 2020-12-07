@@ -82,7 +82,7 @@
         <!-- Align various dependencies that are not really part of the bom-->
         <findbugs.version>3.0.2</findbugs.version>
         <jsoup.version>1.11.3</jsoup.version>
-        <wagon-provider-api.version>3.3.3</wagon-provider-api.version>
+        <wagon-provider-api.version>3.4.1</wagon-provider-api.version>
 
         <!-- The image to use for tests that run Keycloak -->
         <!-- IMPORTANT: If this is changed you must also update .github/workflows/ci-actions.yml to match the version -->
@@ -94,7 +94,7 @@
         <wiremock-maven-plugin.version>6.0.0</wiremock-maven-plugin.version>
 
         <!-- Code Coverage Properties-->
-        <jacoco.agent.argLine></jacoco.agent.argLine>
+        <jacoco.agent.argLine/>
         <jacoco.version>0.8.5</jacoco.version>
 
         <maven-dependency-plugin.version>3.1.2</maven-dependency-plugin.version>
@@ -735,7 +735,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <ignore></ignore>
+                                                <ignore/>
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
@@ -754,7 +754,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <ignore></ignore>
+                                                <ignore/>
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
@@ -773,7 +773,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <ignore></ignore>
+                                                <ignore/>
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
@@ -792,7 +792,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <ignore></ignore>
+                                                <ignore/>
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
@@ -809,7 +809,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <ignore></ignore>
+                                                <ignore/>
                                             </action>
                                         </pluginExecution>
                                     </pluginExecutions>
